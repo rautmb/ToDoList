@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: gray;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.center_div{
+   background-color: gainsboro;
+   box-shadow: 4px 4px rgb(220, 220, 220);
+   border-radius: 15px;
+   padding: 10px;
+   width: 35%;
+}
+
+.header{
+    background-color: aqua;
+}
+
+.allitems{
+    margin-top: 20px;
+    display: inline-block;
+    color: green;
+}
+
+.btn:hover{
+    margin-left: 20px;
+    background-color: red;
+}
